@@ -1,0 +1,18 @@
+
+
+ {
+    "manifest_version":  3,
+    "name": "Emma's Amazon dark mode :3",
+    "version": "69.420",
+    "action": {
+      "default_popup": "./Js-html/popup.html",
+      "default_title": "Haiiiii"
+    },
+    "content_scripts": [
+        {
+           "matches":    ["https://www.amazon.com/*"],
+           "css":        ["./css/rawr.css"],
+           "run_at": "document_idle"
+        }
+     ]
+ }
