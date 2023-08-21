@@ -1,0 +1,61 @@
+:root {
+    --text: #f3f3f2;
+    --background: #080807;
+    --primary: #131921;
+    --secondary: #151518;
+    --accent: #121319;
+}
+
+body{
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+}
+
+/*Header stuff*/
+#nav-subnav.spacious, .nav-ewc-content, .a-row.ewc-subtotal, .a-cardui, .maple-banner--background, .bknLKA
+, .s-desktop-width-max.sg-row-align-items-center.s-wide-grid-style-t3.s-wide-grid-style.sg-row,
+.s-desktop-toolbar, .s-desktop-width-max.s-desktop-content.s-wide-grid-style-t3.s-opposite-dir.s-wide-grid-style.sg-row, #dp,
+ul.a-tabs, .a-box, .sl-outfit-builder-outfit-wrapper, .a-row.a-carousel-controls.a-carousel-row.a-carousel-has-buttons,
+._YnV5L_almCarouselDesktop_3p6hO, div.a-box.a-color-offset-background
+{
+    background-color: var(--secondary) !important;
+    border: none !important;
+}
+
+#bbop-content-container{
+    background-color: var(--primary) !important;
+}
+
+span.a-color-base, h2.a-color-base{
+    color: #fff !important;
+}
+span, .a-row.sc-list-caption, .maple-mathbox__label, .a-color-base, .sc-jSUZER.sc-fbYMXx.dSbPym.iIBSnQ,
+.nav-input.nav-progressive-attribute, .title--3qM6_.title--X01QH.titleAnchor--2TGNn.doubleLinesTitle--ATRHO
+
+{
+    color: var(--text) !important;
+}
+
+/*Catalog images*/
+.nav-categ-image, .nav-image, .s-suggestion-trending-icon, .a-icon.a-icon-close, .ewc-delete-icon{
+    filter: invert(1) !important;
+}
+
+.sc-background-dark, .a-container.sc-background-dark, .s-suggestion-trending-container:hover, #pageContent, .gw-card-layout .desktop-row>div {
+    background: var(--background)!important;
+}
+
+/*Buttons and popups*/
+.a-button-text, .a-popover-inner, .a-dropdown-common .a-dropdown-link.a-active,.a-dropdown-link, .a-dropdown-item.quantity-option,
+.two-pane-results-container, #nav-search .nav-search-field , #navbar.nav-bluebeacon #nav-search .nav-search-scope, .s-suggestion-container:hover, .s-suggestion:hover,
+.nav-flyout, .a-popover-modal .a-popover-header, .a-row.ewc-item, .a-row.ewc-active-cart.ewc-active-cart--selected,
+.a-divider.a-divider-section .a-divider-inner::after, .cr-lighthouse-term, .a-popover-footer, input[type=text], .tile--t5OMY, .dealBadgeMessage--1QoEI,
+.dcl-header-title, .d-showcase-header-container, .DesktopShoveler-module__shoveler_2-Yxdf1eWeHrDbNqT0pdlu
+{
+    color: var(--text) !important;
+    background-color: var(--accent) !important;
+    background: var(--accent) !important;
+}
+.a-dropdown-common .a-dropdown-item:hover .a-dropdown-link{
+    color: var(--background) !important;
+}
