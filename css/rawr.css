@@ -6,6 +6,7 @@
     --accent: #121319;
 }
 
+/*Main body*/
 body{
     background-color: var(--background) !important;
     color: var(--text) !important;
